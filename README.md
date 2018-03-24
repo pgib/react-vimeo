@@ -1,5 +1,7 @@
 # @u-wave/react-vimeo
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/u-wave/react-vimeo.svg)](https://greenkeeper.io/)
+
 Vimeo player component for React.
 
 [Install][] - [Usage][] - [Demo][] - [Props][]
