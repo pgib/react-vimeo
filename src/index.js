@@ -35,6 +35,7 @@ class Vimeo extends React.Component {
       loop: this.props.loop,
       portrait: this.props.showPortrait,
       title: this.props.showTitle,
+      muted: this.props.muted,
     };
   }
 
@@ -216,6 +217,11 @@ if (process.env.NODE_ENV !== 'production') {
      */
     showTitle: PropTypes.bool,
 
+    /**
+     * Starts in a muted state to help with autoplay
+     */
+    muted: PropTypes.bool,
+
     // Events
     /* eslint-disable react/no-unused-prop-types */
 
@@ -292,6 +298,7 @@ Vimeo.defaultProps = {
   loop: false,
   showPortrait: true,
   showTitle: true,
+  muted: false,
 };
 
 export default Vimeo;
